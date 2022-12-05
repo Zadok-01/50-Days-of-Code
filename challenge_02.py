@@ -11,20 +11,20 @@ names = ['Yoda', 'Moses', 'Joshua', 'Mark']
 '''
 
 def convert(strings):
-	return sum(map(int, strings))
+    return sum(map(int, strings))
 
 example = ['1', '3', '5']
 print(convert(example))
 
 
 def check_duplicates(strings):
-	uniq = set(strings)
-	if len(uniq) == len(strings):
-		return 'No duplicates'
-	else:
-		for item in uniq:
-			strings.remove(item)
-		return list(set(strings))
+    uniq = set(strings)
+    if len(uniq) == len(strings):
+        return 'No duplicates'
+    else:
+        for item in uniq:
+            strings.remove(item)
+        return list(set(strings))
 
 
 fruits = ['apple', 'orange', 'banana', 'apple']
