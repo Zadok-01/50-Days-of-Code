@@ -24,7 +24,8 @@ print(register_check(register))
 
 # Challenge 3 - Extra
 def all_lower(names):
-	return tuple(n for n in names if n.islower())
+	lower_names = [n for n in names if n.islower()]
+	return tuple(sorted(lower_names, reverse=True))
 
 names = ["kerry", "dickson", "John", "Mary", "carol", "Rose", "adam"]
 print(all_lower(names))
