@@ -11,14 +11,14 @@ fruits = {'fruit': 'apple', 'color': 'green'}
 '''
 
 def divide_or_square(num):
-	return num % 5 if num % 5 else num ** .5
+    return num % 5 if num % 5 else num ** .5
 
 print(divide_or_square(10))
 print(divide_or_square(13))
 
 
 def longest_value(d):
-	return max(d.values(), key=len)
+    return max(d.values(), key=len)
 
 fruits = {'fruit': 'apple', 'color': 'green'}
 print(longest_value(fruits))
