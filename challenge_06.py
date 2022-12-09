@@ -1,7 +1,7 @@
 # Challenge 06
 
 def user_name(email):
-	return email.split('@')[0]
+    return email.split('@')[0]
 
 
 email = 'ben@gmail.com'
@@ -14,8 +14,8 @@ print('------')
 # Challenge 06  --  Extra
 
 def zeroed(nums):
-	nums[0] = nums[-1] = 0
-	return nums
+    nums[0] = nums[-1] = 0
+    return nums
 
 
 nums = [2, 5, 7, 8, 9]
