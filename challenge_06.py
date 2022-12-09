@@ -13,7 +13,7 @@ print('------')
 
 # Challenge 06  --  Extra
 
-def zeroed(seq):
+def zeroed(nums):
 	nums[0] = nums[-1] = 0
 	return nums
 
