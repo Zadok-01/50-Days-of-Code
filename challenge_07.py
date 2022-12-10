@@ -17,8 +17,7 @@ def names_with_s(names):
     return {n: names.count(n) for n in names if n.startswith('S') }
 
 
-names = ['Joseph', 'Nathan', 'Sasha', 'Kelly', 'Muhammad', 'Jabulani', 
-'Sera', 'Patel', 'Sera']
+names = ['Joseph', 'Nathan', 'Sasha', 'Kelly', 'Muhammad', 'Jabulani', 'Sera', 'Patel', 'Sera']
 print(names_with_s(names))  # {'Sasha': 1, 'Sera': 2}
 
 
