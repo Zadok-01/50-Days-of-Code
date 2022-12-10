@@ -14,7 +14,7 @@ print('------')
 # Challenge 07  --  Extra
 
 def names_with_s(names):
-    return dict((n, names.count(n)) for n in names if n.startswith('S') )
+    return {n: names.count(n) for n in names if n.startswith('S') }
 
 
 names = ['Joseph', 'Nathan', 'Sasha', 'Kelly', 'Muhammad', 'Jabulani', 
