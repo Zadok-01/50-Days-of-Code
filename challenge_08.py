@@ -1,7 +1,7 @@
 # Challenge 08
 
 def odd_even(data):
-    big = max(x for x in data if not x % 2)
+    big = max(x for x in data if not x & 1)
     small = min(x for x in data if x & 1)
     return big - small
 
