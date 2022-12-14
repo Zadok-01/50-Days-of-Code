@@ -18,7 +18,7 @@ def convert_numbers(nums):
     return [f'{n:,}' for n in nums]
 
 
-pwd = nums = [1000000, 2356989, 2354672, 9878098]
+nums = [1000000, 2356989, 2354672, 9878098]
 print(convert_numbers(nums))
 # ['1,000,000', '2,356,989', '2,354,672', '9,878,098']
 
