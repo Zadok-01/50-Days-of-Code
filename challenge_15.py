@@ -21,7 +21,6 @@ def your_age(name):
         print('Your age is not in the database.')
         age = int(input('What is your age? '))
         names_age[name] = age
-    
     name = name.capitalize()
     return f'Hi, {name}, you are {age} years old.'
 
