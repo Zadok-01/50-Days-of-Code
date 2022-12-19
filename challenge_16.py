@@ -53,6 +53,8 @@ AMENDMENT:
 
 I have assumed the Extra Challenge requires one of each item included in the 
 nested list (excluding second or further copies of entries only), but 
-preserving the original order.
+preserving the original order.  So that for an input of 
+[[12, 34, 56, 67], [34, 68, 78]] this output is produced 
+[12, 34, 56, 67, 68, 78].
 '''
 
