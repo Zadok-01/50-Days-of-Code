@@ -48,5 +48,11 @@ Nested_list = [[12, 34, 56, 67], [34, 68, 78]]
 Write a code that generates a list of the following numbers from the nested 
 list above – 34, 67, 78. Your output should be another list: [34, 67, 78]. 
 The list output should not have duplicates.
+
+AMENDMENT:
+
+I have assumed the Extra Challenge requires one of each item included in the 
+nested list (excluding second or further copies of entries only), but 
+preserving the original order.
 '''
 
