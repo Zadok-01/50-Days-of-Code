@@ -1,9 +1,6 @@
 # Challenge 29
 
 
-import string
-
-
 def middle_figure(a, b):
     s = ''.join((a + b).split())
     if len(s) & 1:
