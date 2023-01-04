@@ -38,14 +38,18 @@ def email_validator(emails):
     for email in emails:
         if type(email) != str:
             continue
+        
         parts = email.split('@')
         if len(parts) != 2:
             continue
+        
         prefix, suffix = parts
         if not all((prefix, suffix)):
             continue
+        
         if not suffix.endswith('.com'):
             continue
+        
         valid.append(email)
     
     return valid if valid else 'all emails are invalid'
