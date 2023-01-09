@@ -2,7 +2,9 @@
 
 
 def count_the_vowels(s):
-    return len(set(ch for ch in s.lower() if ch in 'aeiou'))
+    #return len(set(ch for ch in s.lower() if ch in 'aeiou'))
+    #return len(set(v for v in 'aeiou' if v in s.lower()))
+    return sum(v in s.lower() for v in 'aeiou')
 
 
 txt = 'hello'
