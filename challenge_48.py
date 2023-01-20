@@ -44,7 +44,7 @@ data = [12, 13, 22, 34, 45, 56, 78, 98]
 target = 22
 print(search_binary_2(data, target))  # 2
 target = 36
-print(search_binary_2(data, target))  # None
+print(search_binary_2(data, target))  # False
 
 
 
