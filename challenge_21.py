@@ -17,8 +17,7 @@ print('------')
 
 
 def even_or_average(*args):
-    for arg in args:
-        evens = [arg for arg in args if not arg & 1]
+    evens = [arg for arg in args if not arg & 1]
     if evens:
         return max(evens)
     else:
