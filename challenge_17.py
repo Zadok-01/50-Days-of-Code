@@ -44,8 +44,8 @@ end of the name. The function should return the username.
 
 AMENDMENT:
 
-Personally, I think it's fine if you just pass a list into an argument, and 
-it outputs. Input is overrated.
+Personally, I think it's fine if you just pass a string into a function.  
+Input is overrated.
 
 Extra Challenge: Sort by Length
 
