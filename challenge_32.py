@@ -13,7 +13,7 @@ def password_validator():
             print(f'\n{pwd} does not contain any uppercase letters.\n')
             continue
         
-        if pws.isupper():
+        if pwd.isupper():
             print(f'\n{pwd} does not contain any lowercase letters.\n')
             continue
         
