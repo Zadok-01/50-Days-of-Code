@@ -9,11 +9,11 @@ def password_validator():
             print(f'\n{pwd} is too short.\n')
             continue
         
-        if not any(ch.isupper() for ch in pwd):
+        if pwd.islower():
             print(f'\n{pwd} does not contain any uppercase letters.\n')
             continue
         
-        if not any(ch.islower() for ch in pwd):
+        if pws.isupper():
             print(f'\n{pwd} does not contain any lowercase letters.\n')
             continue
         
