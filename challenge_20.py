@@ -22,7 +22,8 @@ print('------')
 
 
 def reverse_uppercase(s):
-    return [wd[::-1] for wd in s.split() if any(ch.isupper() for ch in wd)]
+    # return [wd[::-1] for wd in s.split() if any(ch.isupper() for ch in wd)]
+    return [wd[::-1] for wd in s.split() if wd.islower() is False]
 
 
 text = 'leArning is hard, bUt if You appLy youRself you can achieVe success'
