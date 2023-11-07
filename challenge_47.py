@@ -1,7 +1,7 @@
 # Challenge 47
 
 
-from json import dump
+from json import dump, load
 
 
 def save_json(data, file):
@@ -9,9 +9,18 @@ def save_json(data, file):
         dump(data, f)
 
 
+def read_json(file):
+    with open(file) as f:
+        return load(f)
+
+
 names = {'name': 'Carol', 'sex': 'female', 'age': 55}
 file = 'challenge_47_names.json'
 save_json(names, file)
+
+
+names = read_json(file)
+print(names)
 
 
 
